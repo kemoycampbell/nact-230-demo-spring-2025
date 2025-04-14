@@ -38,7 +38,7 @@ class Student:
 
 #creating objects
 grace = Student()               # Create a Student object named grace
-grace.set_name("Grace Huff")             # Set grace's name to an empty string
+grace.set_name("Grace Huff")             # Set grace's name to full name
 grace.add_score(100)           # Add a score of 100 to grace's scores
 grace.add_score(70)            # Add a score of 70 to grace's scores
 grace.add_score(80)            # Add a score of 80 to grace's scores
@@ -47,5 +47,5 @@ print(f"{grace.get_name()}'s scores: {grace.get_scores()}")   # Print grace's li
 print(f"{grace.get_name()}'s average: {grace.get_average()}") # Print grace's average score
 
 jose = Student()               # Create another Student object named jose
-jose.set_name("Jose Ramirez")              # Set jose's name to an empty string
+jose.set_name("Jose Ramirez")              # Set jose's name to full name
 print(f"Name:{jose.get_name()}")  # Print jose's name
